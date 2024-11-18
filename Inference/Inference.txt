@@ -1,0 +1,16 @@
+
+We use webui for inference.To run inference we first have to run WebUI + ControlNet++ extension
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+To use WebUI API:
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API
+
+We use following ControlNet checkpoint:
+- Reference ControlNet - We can use this after installing it in the WebUI:
+https://github.com/Mikubill/sd-webui-controlnet
+
+To use ControlNet++ we have to download from:
+-SoftEdge and Depth
+https://huggingface.co/huchenlei/ControlNet_plus_plus_collection_fp16/tree/main
+
+
