@@ -6,5 +6,4 @@ The workflow is divided into two steps:
 1.Training
 2.Inference
 
-OneDrive with all resources:
-https://drive.google.com/drive/folders/1uPHM0qp-zpmlvPcSizsy44R_Rw2G56Ec
+The dataset used in this project is publicly available on Zenodo. You can access and download it using the following link: https://zenodo.org/records/14205530
