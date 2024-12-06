@@ -50,7 +50,7 @@ https://huggingface.co/huchenlei/ControlNet_plus_plus_collection_fp16/tree/main
 To run inference use ```api_inference.ipynb```
 
 # Citation 
-This work was presented at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025. If you use this code, please cite our paper:
+This work was presented at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025. If you use this code or data, please cite our paper:
 ```bibtex
 @misc{martyniak2024simuscope,
     title={SimuScope: Realistic Endoscopic Synthetic Dataset Generation through Surgical Simulation and Diffusion Models},
