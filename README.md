@@ -6,8 +6,8 @@ This is the official repository for SIMUSCOPE which has been accepted to IEEE/CV
 
 ![](Images/simgen.png)
 
-The workflow is divided into two steps:
-1.Training
+The workflow is divided into two steps:<br>
+1.Training<br>
 2.Inference
 
 ## Training
