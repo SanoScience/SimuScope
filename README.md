@@ -20,9 +20,9 @@ Additionally, it is possible to skip using the kohya_ss GUI and directly upload 
 Pretrained model it avaiable here to downoald: https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/v1-5-pruned.safetensors
 
 ### Training data
-Data for trainig and pre-trained LoRAs you can find in folder Training/Train_CholectL45 and Training/Train_CholectG45 (https://drive.google.com/drive/folders/186ItROA0xys9wkxQL9InKL9lJfyUY2Fp).
-You can also train LoRAs yourself:
--Training Lora CholectG45:
+Data for trainig and pre-trained LoRAs you can find in folder Training (https://drive.google.com/drive/folders/186ItROA0xys9wkxQL9InKL9lJfyUY2Fp).
+You can also train LoRAs yourself:<br>
+-Training Lora CholectG45:<br>
 
 ```powershell
 accelerate launch --num_cpu_threads_per_process=8 "/.../kohya_ss/sd-scripts/train_network.py" --network_train_unet_only --bucket_no_upscale --bucket_reso_steps=64 --cache_latents --cache_latents_to_disk --enable_bucket --min_bucket_reso=256 --max_bucket_reso=2048 --gradient_checkpointing --learning_rate="0.0012" --logging_dir="/.../WACV_2025/Training/Train_CholectG45/kohya_ss_CholectG45/log" --lr_scheduler="constant_with_warmup" --lr_scheduler_num_cycles="20" --max_data_loader_n_workers="0" --max_grad_norm="1" --resolution="512,512" --max_train_steps="13920" --min_snr_gamma=5 --mixed_precision="fp16" --network_alpha="1" --network_dim=128 --network_module=networks.lora --optimizer_type="Adafactor" --output_dir="/.../WACV_2025/Training/Train_CholectG45/kohya_ss_CholectG45/model" --output_name="Whole_s87_cholect45" --pretrained_model_name_or_path="/.../Pretrained_model_name/v1-5-pruned.safetensors" --save_every_n_epochs="1" --save_model_as=safetensors --save_precision="fp16" --text_encoder_lr=0.0012 --train_batch_size="5" --train_data_dir="/.../WACV_2025/Training/Train_CholectG45/kohya_ss_CholectG45/img" --unet_lr=0.0012 --xformers
