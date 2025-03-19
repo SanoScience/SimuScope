@@ -2,6 +2,12 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.02332-b31b1b.svg)](https://arxiv.org/abs/2412.02332)
 
+## Contact Information
+
+If you have any questions, suggestions, or would like to get in touch, feel free to contact me via email:
+
+**Email:** s.martyniak@sanoscience.org
+
 This is the official repository for SIMUSCOPE which has been accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025, Tucson, AZ, USA. The dataset used in this project is publicly available on Zenodo. You can access and download it using the following link: https://zenodo.org/records/14205530
 
 ![](Images/simgen.png)
