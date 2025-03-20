@@ -60,13 +60,13 @@ To run inference use ```api_inference.ipynb```
 # Citation 
 This work was presented at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025. If you use this code or data, please cite our paper:
 ```bibtex
-@misc{martyniak2024simuscope,
-    title={SimuScope: Realistic Endoscopic Synthetic Dataset Generation through Surgical Simulation and Diffusion Models},
-    author={Sabina Martyniak and Joanna Kaleta and Diego Dall'Alba and Michał Naskręt and Szymon Płotka and Przemysław Korzeniowski},
-    year={2024},
-    eprint={2412.02332},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{Martyniak_2025_WACV,
+    author    = {Martyniak, Sabina and Kaleta, Joanna and Dall'Alba, Diego and Naskr\k{e}t, Micha{\l} and P{\l}otka, Szymon and Korzeniowski, Przemys{\l}aw},
+    title     = {SimuScope: Realistic Endoscopic Synthetic Dataset Generation through Surgical Simulation and Diffusion Models},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {4268-4278}
 }
 ```
 
